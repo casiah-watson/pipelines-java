@@ -20,4 +20,4 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: start chrome.exe
+          - script: start "chrome.exe" chrome://settings/help
