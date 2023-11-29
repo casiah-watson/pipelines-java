@@ -22,4 +22,4 @@ jobs:
           steps:
           - script: start "chrome.exe" chrome://settings/help
           - script: echo Chrome Started
-          - pwsh: Write-Host "This multiline script always runs in PowerShell Core."
+          - powershell: Write-Host "This multiline script always runs in PowerShell Core."
