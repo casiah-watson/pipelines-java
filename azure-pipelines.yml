@@ -6,7 +6,7 @@ jobs:
 - deployment: VMDeploy
   displayName: Deploy to VM
   environment: 
-    name: 'Test Machine'
+    name: TestMachine
     resourceType: virtualMachine
     resourceName: S02AAWITST # only deploy to the VM resource named S02AAWITST
   strategy:
