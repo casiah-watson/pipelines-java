@@ -13,7 +13,7 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: start "chrome.exe" chrome://settings/help
+          - script: start chrome.exe "chrome://settings/help"
           - script: echo Chrome Started
           - task: CopyFiles@2
             inputs:
